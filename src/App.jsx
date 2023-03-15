@@ -1,12 +1,9 @@
 import React from "react"
-import "./App.css"
+import LineChart from "./components/lineChart/LineChart"
+import { data } from "./utils/chartData"
 
 const App = () => {
-  return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
-  )
+  return <LineChart data={data} />
 }
 
 export default App
