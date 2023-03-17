@@ -3,10 +3,10 @@ import * as d3 from "d3"
 
 const LineChart = ({ data }) => {
   useEffect(() => {
-    createChart()
+    createLineChart()
   }, [])
 
-  const createChart = () => {
+  const createLineChart = () => {
     const width = 400
     const height = 400
     const margin = { top: 40, right: 40, bottom: 40, left: 40 }
