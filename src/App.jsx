@@ -5,11 +5,7 @@ import StepChart from "./components/stepChart/StepChart"
 import { stepChartData } from "./utils/chartData"
 
 const App = () => {
-  return (
-    <div>
-      <StepChart data={stepChartData} />
-    </div>
-  )
+  return <StepChart data={stepChartData} />
 }
 
 export default App
