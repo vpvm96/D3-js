@@ -3,10 +3,11 @@ import LineChart from "./components/lineChart/LineChart"
 import ScatterPlotChart from "./components/scatterPlotChart/ScatterPlotChart"
 import StepChart from "./components/stepChart/StepChart"
 import SplineChart from "./components/splineChart/SplineChart"
-import { splineChartData } from "./utils/chartData"
+import BarChart from "./components/barChart/BarChart"
+import { splineChartData, barChartData } from "./utils/chartData"
 
 const App = () => {
-  return <SplineChart data={splineChartData} />
+  return <BarChart data={barChartData} />
 }
 
 export default App

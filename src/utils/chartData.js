@@ -25,3 +25,5 @@ export const splineChartData = [
   { x: 3, y: 12 },
   { x: 4, y: 8 },
 ]
+
+export const barChartData = [40, 80, 130, 210, 100, 20]
