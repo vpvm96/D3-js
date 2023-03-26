@@ -27,3 +27,5 @@ export const splineChartData = [
 ]
 
 export const barChartData = [40, 80, 130, 210, 100, 20]
+
+export const doughnutChartData = { a: 9, b: 20, c: 30, d: 8, e: 12 }
