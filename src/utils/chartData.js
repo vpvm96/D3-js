@@ -29,3 +29,46 @@ export const splineChartData = [
 export const barChartData = [40, 80, 130, 210, 100, 20]
 
 export const doughnutChartData = { a: 9, b: 20, c: 30, d: 8, e: 12 }
+
+export const scatterPlotChartData = [
+  {
+    date: 2009,
+    wage: 7.25,
+  },
+  {
+    date: 2008,
+    wage: 6.55,
+  },
+  {
+    date: 2007,
+    wage: 5.85,
+  },
+  {
+    date: 1997,
+    wage: 5.15,
+  },
+  {
+    date: 1996,
+    wage: 4.75,
+  },
+  {
+    date: 1991,
+    wage: 4.25,
+  },
+  {
+    date: 1981,
+    wage: 3.35,
+  },
+  {
+    date: 1980,
+    wage: 3.1,
+  },
+  {
+    date: 1979,
+    wage: 2.9,
+  },
+  {
+    date: 1978,
+    wage: 2.65,
+  },
+]

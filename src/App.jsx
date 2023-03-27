@@ -1,9 +1,9 @@
 import React from "react"
-import DoughnutChart from "./components/doughnutChart/DoughnutChart"
-import { doughnutChartData } from "./utils/chartData"
+import ConnectedScatterplotChart from "./components/scatterPlotChart/ConnectedScatterplotChart"
+import { scatterPlotChartData } from "./utils/chartData"
 
 const App = () => {
-  return <DoughnutChart data={doughnutChartData} />
+  return <ConnectedScatterplotChart data={scatterPlotChartData} />
 }
 
 export default App
